@@ -12,7 +12,6 @@ import PermIdentityIcon from "@material-ui/icons/PermIdentity";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import { Button } from "@material-ui/core";
 
-//sidebar option
 function Sidebar() {
   return (
     <div className="sidebar">
