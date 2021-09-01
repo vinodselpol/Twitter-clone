@@ -1,5 +1,11 @@
 .widgets {
   flex: 0.3;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.widgets::-webkit-scrollbar {
+  display: none;
 }
 
 .widgets__input {
@@ -24,7 +30,7 @@
 .widgets__widgetContainer {
   margin-top: 15px;
   margin-left: 20px;
-  padding: 20px;
+  padding: 20px 20px;
   background-color: #f5f8fa;
   border-radius: 20px;
 }
